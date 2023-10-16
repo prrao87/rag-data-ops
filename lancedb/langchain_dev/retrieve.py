@@ -18,7 +18,7 @@ class Content(LanceModel):
 
 def get_files() -> list[str]:
     # Get a list of files from the data directory
-    data_dir = Path("../data")
+    data_dir = Path("../../data")
     txt_files = list(data_dir.glob("*.txt"))
     # Return string of paths or else lancedb/pydantic will complain
     txt_files = [str(f) for f in txt_files]
