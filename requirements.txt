@@ -1,4 +1,5 @@
 langchain==0.0.314
+llama-index==0.8.45.post1
 lancedb==0.3.1
 sentence-transformers==2.2.2
 pandas==2.1.1
