@@ -132,4 +132,5 @@ dmypy.json
 .DS_Store
 
 # Local
-lancedb/db
+lancedb/langchain_dev/db
+lancedb/llamaindex_dev/db
